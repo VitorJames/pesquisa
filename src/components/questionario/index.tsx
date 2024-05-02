@@ -13,6 +13,8 @@ const Questionario = () => {
 
     useEffect(() => {
         if (currentQuestion === totalPerguntas && finish) {
+            console.log(respostas);
+            
             showAlert();
         }
     }, [currentQuestion, totalPerguntas, finish]);

@@ -1,14 +1,10 @@
 import './formulario.css';
 
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import Swal from 'sweetalert2';
 
 const Formulario = () => {
   const descricao_formulario = 'Agradecemos por dedicar seu tempo para realizar o preenchimento nosso questionário de pesquisa. Gostaríamos de tranquilizá-lo de que todos os dados fornecidos neste questionário são confidenciais e serão utilizados apenas para fins de análise e melhoria dos nossos serviços.';
-
-  const aoIniciar = (evento: any) => {
-    evento.preventDefault();
-  };
 
   const showAlert = () => {
     Swal.fire({
