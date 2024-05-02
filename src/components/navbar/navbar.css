@@ -1,0 +1,5 @@
+.border-nav {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(332deg, rgba(67, 156, 210, 1) 4%, rgba(118, 182, 48, 1) 63%, rgba(242, 59, 64, 1) 95%) 1;
+}
