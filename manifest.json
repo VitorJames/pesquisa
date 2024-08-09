@@ -1,0 +1,9 @@
+{
+    "name": "Pesquisa de Satisfação GETIC",
+    "short_name": "Pesquisa de Satisfação GETIC",
+    "theme_color": "#2196f3",
+    "background_color": "rgba(255,255,255,0)",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/"
+}
