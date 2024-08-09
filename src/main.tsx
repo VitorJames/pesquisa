@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-import { registerServiceWorker } from './../serviceWorker.js'
+import { registerServiceWorker } from '../serviceWorker.ts'
 registerServiceWorker();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
